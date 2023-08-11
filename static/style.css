@@ -1,0 +1,312 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.first-section{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+header {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15px;
+
+}
+
+header a{
+text-decoration: none;
+color: white;
+}
+
+.cv a{
+background-color: orangered;
+padding: 5px 15px;
+border-radius: 20px;
+color: white;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    padding: 0 15px;
+}
+
+.about-me-text, .my-pic{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.about-me-text{
+    padding: 30px 0 0 15px;
+}
+
+@media only screen and (max-width: 760px){
+    .about-me-text{
+        margin: 0%;
+        padding: 10px 0 0 5px;
+    }
+
+    .about-me-text p {
+        text-align: justify;
+    }
+
+    .my-pic img{
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+    }
+}
+
+
+@media only screen and (max-width: 760px){
+    .cv a{
+        background-color: orangered;
+        padding: 5px 10px;
+        }
+
+    nav ul li {
+        float: left;
+        list-style: none;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .cv a{
+        background-color: orangered;
+        padding: 5px 7px;
+        font-size: 13px;
+        }
+
+    nav ul li {
+        float: left;
+        list-style: none;
+        padding: 0 6px;
+    }
+
+    nav ul li a{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 455px){
+    .cv a{
+        background-color: orangered;
+        padding: 5px 7px;
+        font-size: 10px;
+        }
+
+    nav ul li {
+        float: left;
+        list-style: none;
+        padding: 0 4px;
+    }
+
+    nav ul li a{
+        font-size: 10px;
+    }
+}
+
+.about-me-text h1{
+    text-align: center;
+}
+
+.about-me-text .btn1{
+    padding: 6px 18px;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+}
+
+.my-pic img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+#exp{
+    background-color: #13162e;
+    margin-top: 2px;
+    padding: 15px 0;
+}
+
+#exp .row{
+    background-color: #616b77;
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+}
+
+.exp{
+    width: 50%;
+    border: 2px dotted orangered;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 960px) {
+    .exp{
+        width: 80%;
+    }
+}
+
+.exp h4{
+    text-align: center;
+    color: white;
+}
+/* my services */
+#ser{
+    background-color: #13162e;
+}
+
+#ser hr{
+    height: 3px;
+    background-color: white;
+    color: white;
+
+}
+
+#service h1{
+    text-align: center;
+    color: white;
+}
+
+ .service-cont{
+    width: 100%;
+    height: 60vh;
+    border: 2px solid #fe4703;;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 2px 2px 0px 2px white;
+    background-color: transparent;
+
+}
+
+@media only screen and (max-width: 1100px){
+    .service-cont{
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .service-cont{
+    height: 40vh;
+    padding: 40px;
+    margin-top: 25px;
+        
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .service-cont{
+    height: 45vh;
+    padding: 30px;
+    margin-top: 25px;
+        
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .service-cont{
+    height: 40vh;
+    padding-bottom: 20px;
+   line-height: 2;
+        
+    }
+}
+
+h2{
+    text-align: center;
+    color:#fe4703 ;
+}
+
+.service-cont p{
+    color: white;
+    font-family:  cursive;
+}
+
+/* MY SKILL */
+#my-skill{
+    background-color: #13162e;
+    padding-top: 50px;
+}
+
+#my-skill h1{
+    color: white;
+}
+
+.skill{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.skill span{
+    color: white;
+}
+
+.progress{
+    margin-bottom: 15px;
+}
+
+.progress-bar{
+    background-color: orangered;
+}
+
+.about-me{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.about-me p{
+    color: white;
+    line-height: 2.5;
+}
+
+#certi{
+    background-color: #13162e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.certificate-title{
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer{
+    background-color: #1a1a1a;
+    padding-top: 70px;
+    padding-bottom: 10px;
+
+}
+footer .foot{
+    text-align: center;
+    color: #999;
+}
+.foot a{
+    text-decoration: none;
+    color: red;
+}
+
+footer .icons{
+    text-align: center;
+    margin: 0%;
+    padding: 5px 0 0 0;
+}
+footer .icons a{
+    padding-left: 10px;
+}
+.icons a .fa-instagram{
+    color: red;
+   }
